@@ -8,11 +8,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Date;
 import java.util.Properties;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class Producer {
 
-    public static void main(String[] args) {
-        SpringApplication.run(Producer.class, args);
+    public static void main(String[] args) throws Exception {
+//        SpringApplication.run(Producer.class, args);
 
         String clientId = "my-producer";
 
@@ -25,7 +25,7 @@ public class Producer {
 
         KafkaProducer<Number, String> producer = new KafkaProducer<Number, String>(props);
 
-        int numOfRecords = 10;
+        int numOfRecords = 10; //numero de mensagens que esta criando
         String topic = "numbers";
 
         //Example - Formatted string as message and messages are sent with 300ms delay (3 messages / second)

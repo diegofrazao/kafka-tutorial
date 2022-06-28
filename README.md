@@ -7,18 +7,21 @@
     [Intellij](https://www.jetbrains.com/pt-br/idea/download/#section=windows), 
     [VScode](https://code.visualstudio.com/download));
 
-### Configuração do projeto:
+### Apresentação sobre o Kafka:
+- [Apresentação Kafka](https://github.com/diegofrazao/kafka-tutorial/blob/main/Apache%20Kafka.pptx)
 
-#### Obter o código do projeto
+### Configuração do projeto
+
+#### Obter o código do projeto:
 
 ```shell
 git clone https://github.com/diegofrazao/kafka-tutorial.git
 ```
 
-#### Rodar o docker desktop
+#### Rodar o docker desktop:
 - Abra o seu [Docker](https://docs.docker.com/get-docker/) (pré-requisito deste tutorial) e deixe-o aberto.
 
-#### Subir as imagens do Kafka no docker
+#### Subir as imagens do Kafka no docker:
 - Abra a pasta onde está localizado o arquivo *“docker-compose.yml”* (no projeto está na raiz).
 
 - Execute o comando e espere finalizar as configurações:
